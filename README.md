@@ -41,6 +41,7 @@
     ```bash
     git clone https://github.com/hemantapkh/PyBirthdayWish.git && cd PyBirthdayWish && pip install -r requirements.txt
     ```
+* Install VLC
 * Edit the ``arts/art.py`` file and add your texts and colors using color codes.
 
 * Edit the ``config.py`` file to change the settings and make ``artFile = 'art'`` to use ``arts/art.py`` instead of ``example.py``.
@@ -67,6 +68,8 @@
         ```
 
 * Send the executable file (Inside dist folder) to your friend and wish them a pythonic happy birthday.
+RUN THE FILE ./dist/PyBirthdayWish
+
 -----
 
 Made with :heart: and Python.
