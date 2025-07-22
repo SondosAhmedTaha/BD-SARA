@@ -57,7 +57,13 @@
         ```
     * On Unix based system
         ```bash
-        pyinstaller --noconfirm --onefile --console --icon "icon.ico" --no-embed-manifest --add-data "arts:arts/"  --add-data "config.py:." --add-data "HappyBirthday.mp3:." --add-data "PyBirthdayWish.py:."  "PyBirthdayWish.py"
+        pyinstaller --noconfirm --onefile --console --icon "icon.ico" \
+  --add-data "arts:arts/" \
+  --add-data "config.py:." \
+  --add-data "HappyBirthday.mp3:." \
+  --add-data "PyBirthdayWish.py:." \
+  "PyBirthdayWish.py"
+
         ```
 
 * Send the executable file (Inside dist folder) to your friend and wish them a pythonic happy birthday.
